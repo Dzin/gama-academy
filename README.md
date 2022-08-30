@@ -14,12 +14,12 @@ Essa é mais uma ação que visa reduzir o déficit de profissionais qualificado
   <tr>
     <td align="center">
       <a href="https://www.gama.academy">
-        <img src="https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy-p-500.png" width="150px;" alt="Gama Academy"/>
+        <img src="https://assets.website-files.com/5ff79f3ebebf6b12f6b7747f/5ffe04fc6284b7e90070d985_logo-gama-academy-p-500.png" width="150px;" style="display: inline-block;" alt="Gama Academy"/>
       </a>
     </td>
     <td align="center">
       <a href="https://www.acate.com.br">
-        <img src="https://www.acate.com.br/wp-content/uploads/2018/08/logotipo.png" width="150px;" alt="ACATE"/>
+        <img src="https://www.acate.com.br/wp-content/uploads/2018/08/logotipo.png" width="150px;" style="display: inline-block;" alt="ACATE"/>
       </a>
     </td>
   </tr>
