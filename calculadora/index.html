@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Gama Academy</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/icon-gama-academy.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="main-site">
+        <div class="header">
+            <img src="./assets/img/logo-gama-academy.png" alt="Gama Academy">
+        </div>
+
+        <div class="calculator">
+            <div id="display" class="display">
+
+            </div>
+
+            <div class="keyboard">
+                <button onClick="handleClickReset()">C</button>
+                <button onClick="handleClickClean()">CE</button>
+                <button onClick="handleClickDel()">DEL</button>
+                <button onClick="handleClickOperator('/')">&divide;</button>
+
+                <button onClick="handleClickInput(7)">7</button>
+                <button onClick="handleClickInput(8)">8</button>
+                <button onClick="handleClickInput(9)">9</button>
+                <button onClick="handleClickOperator('*')">&times;</button>
+
+                <button onClick="handleClickInput(4)">4</button>
+                <button onClick="handleClickInput(5)">5</button>
+                <button onClick="handleClickInput(6)">6</button>
+                <button onClick="handleClickOperator('-')">&minus;</button>
+
+                <button onClick="handleClickInput(1)">1</button>
+                <button onClick="handleClickInput(2)">2</button>
+                <button onClick="handleClickInput(3)">3</button>
+                <button onClick="handleClickOperator('+')">&plus;</button>
+
+                <button onClick="handleClickNeg()">&plusmn;</button>
+                <button onClick="handleClickInput(0)">0</button>
+                <button onClick="handleClickInput('.')">.</button>
+                <button onClick="handleClickEqual('=')">&equals;</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/calculator.js"></script>
+
+    <script>
+        // Start
+        handleClickReset();
+
+        // Add event listener on keydown
+        document.addEventListener('keydown', (e) => {
+            // Input pressed
+            if (!isNaN(e.key)) {
+                handleClickInput(e.key);
+            } else {
+                // Input pressed
+                if (e.key === '.' || e.key == ',') {
+                    handleClickInput('.');
+                } else {
+                    // Operator pressed
+                    if (e.key === '+' || e.key == '-' || e.key == '/' || e.key == '*') {
+                        handleClickOperator(e.key);
+                    } else {
+                        // Equal pressed
+                        if (e.key === '=' || e.key === 'Enter') {
+                            handleClickEqual();
+                        } else {
+                            // Del pressed
+                            if (e.key === 'Backspace' || e.key === 'Delete') {
+                                handleClickDel();
+                            }
+                        }
+                    }
+                }
+            }
+        }, false);
+    </script>
+</body>
+
+</html>
