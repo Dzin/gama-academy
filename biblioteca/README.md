@@ -2,7 +2,7 @@
 
 # Desafio 2 (Parte 1)
 
-Mentoria de Javascript Avançado - Programa Dev for Tech (Turma 01) com [@gamaacademy](#https://github.com/gamaacademy):
+Mentoria de Javascript Avançado - Programa Dev for Tech (Turma 01) com [@gamaacademy](https://github.com/gamaacademy):
 
 - Sistema que armazena e retorna informações de livros utilizando JavaScript e Node.js.
 
