@@ -2,7 +2,7 @@
 
 # Desafio 1
 
-Mentoria de Fundamentos de Javascript - Programa Dev for Tech (Turma 01) com @gamaacademy:
+Mentoria de Fundamentos de Javascript - Programa Dev for Tech (Turma 01) com [@gamaacademy](#https://github.com/gamaacademy):
 
 - Calculadora básica utilizando HTML, SASS/CSS e JavaScript.
 
