@@ -49,7 +49,7 @@ Vamos criar um sistema que armazena informações de livros.
 
 - Download das dependências: `npm install`
 
-- Executar projeto: `npm start`
+- Executar projeto: `npm run start`
 
 ## 📝 Licença
 
