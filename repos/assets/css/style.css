@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.container .page-content {
+  width: 100%;
+  max-width: 700px;
+}
+.container .page-content .title {
+  color: #8c52e5;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.container .page-content .description {
+  color: #000000;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.container .page-content .search {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 30px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 0;
+}
+.container .page-content .search:focus-visible {
+  outline: 0;
+}
+.container .page-content .repos-list {
+  border-collapse: collapse;
+  width: 100%;
+}
+.container .page-content .repos-list th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8c52e5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.container .page-content .repos-list th, .container .page-content .repos-list td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+.container .page-content .repos-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.container .page-content .repos-list tr:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+.container .page-content .repos-list td {
+  color: #000000;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
